@@ -11,7 +11,7 @@ dst = File.join(RAILS_ROOT, 'public', 'stylesheets')
 FileUtils.cp_r(src, dst)
 
 puts "Copying images/icons/*..."
-src = File.join(File.dirname(__FILE__), 'templates', 'images', 'icons, 'help.gif')
+src = File.join(File.dirname(__FILE__), 'templates', 'images', 'icons', 'help.gif')
 dst = File.join(RAILS_ROOT, 'public', 'images', 'icons')
 FileUtils.cp_r(src, dst)
 

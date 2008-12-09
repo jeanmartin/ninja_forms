@@ -6,7 +6,7 @@ dst = File.join(RAILS_ROOT, 'app', 'views')
 FileUtils.cp_r(src, dst)
 
 puts "Copying stylesheets/*..."
-src = File.join(File.dirname(__FILE__), 'templates', 'stylesheets', 'ninja_formas.css')
+src = File.join(File.dirname(__FILE__), 'templates', 'stylesheets', 'ninja_forms.css')
 dst = File.join(RAILS_ROOT, 'public', 'stylesheets')
 FileUtils.cp_r(src, dst)
 

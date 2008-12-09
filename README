@@ -1,0 +1,19 @@
+NinjaForms
+==========
+
+This plugin adds an extended version of the great error_handling_form_for as seen on [TODO].
+Most of the features can be deactivated and/or configured:
+
+  * The (configurable) classname 'needed' is added to the label of a mandatory attribute.
+    This is determined by validating an empty instance of the class and checking if errors have been added to it.
+  * The missing form helper methods are added to the list of auto-labeled form helpers. The complete list reads: [TODO]
+  * The new form helper 'calendar_picker' is added. It renders a text_field with an (optional) calendar icon and displays a JS calendar. 
+  * ...
+
+Example
+=======
+
+Example goes here.
+
+
+Copyright (c) 2008 Jan Schwenzien, released under the MIT license

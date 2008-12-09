@@ -1,0 +1,96 @@
+form {
+  position: relative; }
+  form * {
+    position: relative; }
+  form .needed label {
+    font-weight: bold; }
+  form .form_field_info {
+    margin-left: 189px; }
+  form .formrow {
+    margin: 4px 0; }
+    form .formrow label {
+      display: block;
+      float: left;
+      width: 185px;
+      text-align: right;
+      padding: 4px 4px 0 0; }
+      form .formrow label a img {
+        position: relative;
+        top: 3px; }
+    form .formrow input {
+      width: 200px;
+      padding: 0;
+      margin: 0;
+      font-size: 13px;
+      height: 18px;
+      border: 1px solid #a6a6a6; }
+    form .formrow select {
+      height: 20px; }
+    form .formrow input, form .formrow select, form .formrow textarea {
+      margin-top: 1px; }
+    form .formrow .form_error_message {
+      font-size: 0.9em;
+      color: #ae0000; }
+    form .formrow .form_info img {
+      width: 16px;
+      height: 16px;
+      background: url(/images/icons/help.gif) no-repeat;
+      margin-top: -3px; }
+  form .text_field_formrow input,
+  form .text_area_formrow input,
+  form .password_field_formrow input,
+  form .calendar_select_formrow input,
+  form .select_or_enter_formrow input {
+    border: 1px solid #a6a6a6; }
+  form .text_field_formrow .fieldWithErrors input, form .text_field_formrow .fieldWithErrors select,
+  form .text_area_formrow .fieldWithErrors input, form .text_area_formrow .fieldWithErrors select,
+  form .password_field_formrow .fieldWithErrors input, form .password_field_formrow .fieldWithErrors select,
+  form .calendar_select_formrow .fieldWithErrors input, form .calendar_select_formrow .fieldWithErrors select,
+  form .select_or_enter_formrow .fieldWithErrors input, form .select_or_enter_formrow .fieldWithErrors select {
+    border: 1px solid #cd071e; }
+  form .text_field_formrow .fieldWithErrors textarea,
+  form .text_area_formrow .fieldWithErrors textarea,
+  form .password_field_formrow .fieldWithErrors textarea,
+  form .calendar_select_formrow .fieldWithErrors textarea,
+  form .select_or_enter_formrow .fieldWithErrors textarea {
+    border: 1px solid #cd071e; }
+  form .check_box_formrow {
+    width: 340px; }
+    form .check_box_formrow label {
+      float: right;
+      text-align: left;
+      width: 180px;
+      padding-top: 2px; }
+    form .check_box_formrow input {
+      margin-left: 160px;
+      width: auto !important;
+      border: none; }
+  form .submitrow {
+    position: relative;
+    width: 397px;
+    height: 23px;
+    text-align: right;
+    margin-top: 7px;
+    margin-right: 0px; }
+    form .submitrow .submit_wrapper {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: #FFFFFF url(/images/submit_button_bg.gif) 0 0 repeat-x;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      border: 1px solid #a6a6a6;
+      display: block; }
+      form .submitrow .submit_wrapper input {
+        position: relative;
+        width: auto;
+        height: 21px;
+        background: none;
+        border: 0;
+        padding: 0 7px;
+        font-size: 12px;
+        overflow: visible;
+        cursor: pointer; }
+        form .submitrow .submit_wrapper input.fffix {
+          top: -2px; }

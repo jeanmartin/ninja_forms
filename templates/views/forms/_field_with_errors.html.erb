@@ -1,0 +1,7 @@
+<% content_tag :div, { :class => "formrow #{kind}_formrow#{' needed' if field_needed}" }.merge(formrow){|k,o,n| [o,n].join(' ') } do %>
+	<%= label %>
+	<%= element %>
+	<span class="form_error_message">
+		<%= error %>
+	</span>
+<% end %>

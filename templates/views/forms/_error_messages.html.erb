@@ -1,0 +1,8 @@
+<div>
+	<h2><%= n_("Ein Fehler ist aufgetreten", "%{num} Fehler sind aufgetreten", count) % {:num => count} %>:</h2>
+	<ul>
+		<% object.errors.full_messages.each do |message| %>
+			<li><%= message %></li>
+		<% end %>
+	</ul>
+</div>

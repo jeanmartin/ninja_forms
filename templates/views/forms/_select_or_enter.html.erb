@@ -1,0 +1,5 @@
+<% content_tag :div, { :class => "formrow select_or_enter_formrow#{' needed' if field_needed}" }.merge(formrow){|k,o,n| [o,n].join(' ') } do %>
+    <%= label %>
+    <%= select %>
+    <%= enter_field %>
+<% end %>

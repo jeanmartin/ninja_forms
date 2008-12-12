@@ -87,9 +87,11 @@ module NinjaForms
 		
 		def is_needed?(object, field)
 			# validate the model and check for errors on the attribute
-			o = clone_object(object)
-			o.valid?
-			!o.errors.on(field).blank?
+			unless @o
+				@o = clone_object(object)
+				@o.valid?
+			end
+			!@o.errors.on(field).blank?
 		end
 	  
 	  def error_message(field, options)
